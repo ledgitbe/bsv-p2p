@@ -6,7 +6,7 @@ var chai = require('chai');
 var should = chai.should();
 var expect = chai.expect;
 
-var bsv = require('bsv');
+var bsv = require('bsv1');
 var P2P = require('../');
 var Peer = P2P.Peer;
 var MessagesData = require('./data/messages');

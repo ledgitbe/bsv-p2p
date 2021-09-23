@@ -4,7 +4,7 @@
 
 var should = require('chai').should();
 
-var bsv = require('bsv');
+var bsv = require('bsv1');
 var P2P = require('../');
 var Inventory = P2P.Inventory;
 var BufferUtils = bsv.util.buffer;

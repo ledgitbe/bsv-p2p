@@ -10,7 +10,7 @@ var expect = chai.expect;
 var sinon = require('sinon');
 var fs = require('fs');
 
-var bsv = require('bsv');
+var bsv = require('bsv1');
 var _ = bsv.deps._;
 var P2P = require('../');
 var Peer = P2P.Peer;

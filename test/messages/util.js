@@ -4,7 +4,7 @@
 
 var should = require('chai').should();
 var utils = require('../../lib/messages/utils');
-var bsv = require('bsv');
+var bsv = require('bsv1');
 var BufferReader = bsv.encoding.BufferReader;
 
 describe('Message Utils', function() {

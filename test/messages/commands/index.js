@@ -5,7 +5,7 @@ var expect = require('chai').expect;
 var P2P = require('../../../');
 var Messages = P2P.Messages;
 var sinon = require('sinon');
-var bsv = require('bsv');
+var bsv = require('bsv1');
 
 describe('Command Messages', function() {
 
